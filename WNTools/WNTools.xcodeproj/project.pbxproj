@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C96D3DCF1DD049EE00AA7FDA /* WNHttpServer.m in Sources */ = {isa = PBXBuildFile; fileRef = C96D3DCE1DD049EE00AA7FDA /* WNHttpServer.m */; };
+		C96D3DD41DD067B100AA7FDA /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C96D3DD11DD067B100AA7FDA /* AsyncSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C96D3DD51DD067B100AA7FDA /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C96D3DD31DD067B100AA7FDA /* AsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F0259CCF1DCD645D00D5600C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0259CCE1DCD645D00D5600C /* main.m */; };
 		F0259CD21DCD645D00D5600C /* WNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0259CD11DCD645D00D5600C /* WNAppDelegate.m */; };
 		F0259CD81DCD645D00D5600C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0259CD61DCD645D00D5600C /* Main.storyboard */; };
@@ -41,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C96D3DCD1DD049EE00AA7FDA /* WNHttpServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNHttpServer.h; sourceTree = "<group>"; };
+		C96D3DCE1DD049EE00AA7FDA /* WNHttpServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNHttpServer.m; sourceTree = "<group>"; };
+		C96D3DD01DD067B100AA7FDA /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		C96D3DD11DD067B100AA7FDA /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		C96D3DD21DD067B100AA7FDA /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
+		C96D3DD31DD067B100AA7FDA /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
 		F0259CCA1DCD645D00D5600C /* WNTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WNTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0259CCE1DCD645D00D5600C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F0259CD01DCD645D00D5600C /* WNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WNAppDelegate.h; sourceTree = "<group>"; };
@@ -123,11 +132,11 @@
 			isa = PBXGroup;
 			children = (
 				F0259D001DCD64CC00D5600C /* appDelegate */,
-				F0259D011DCD650100D5600C /* 个人信息 */,
-				F0259D0A1DCD6A1300D5600C /* 上传界面 */,
-				F0259D0E1DCD6A5A00D5600C /* 我的资源 */,
-				F0259D051DCD65A500D5600C /* 公共信息 */,
-				F0259D121DCD6D0B00D5600C /* 公共控件 */,
+				F0259D011DCD650100D5600C /* information */,
+				F0259D0A1DCD6A1300D5600C /* upload */,
+				F0259D0E1DCD6A5A00D5600C /* myResource */,
+				F0259D051DCD65A500D5600C /* publicClass */,
+				F0259D121DCD6D0B00D5600C /* publicControl */,
 				F0259CD61DCD645D00D5600C /* Main.storyboard */,
 				F0259CD91DCD645D00D5600C /* Assets.xcassets */,
 				F0259CDB1DCD645D00D5600C /* LaunchScreen.storyboard */,
@@ -173,45 +182,47 @@
 			name = appDelegate;
 			sourceTree = "<group>";
 		};
-		F0259D011DCD650100D5600C /* 个人信息 */ = {
+		F0259D011DCD650100D5600C /* information */ = {
 			isa = PBXGroup;
 			children = (
 				F0259D211DCD722700D5600C /* model */,
 				F0259D201DCD722100D5600C /* View */,
 				F0259D1F1DCD721800D5600C /* VC */,
 			);
-			name = "个人信息";
+			name = information;
 			sourceTree = "<group>";
 		};
-		F0259D051DCD65A500D5600C /* 公共信息 */ = {
+		F0259D051DCD65A500D5600C /* publicClass */ = {
 			isa = PBXGroup;
 			children = (
 				F0259D061DCD65E600D5600C /* WNServer.h */,
 				F0259D231DCD777200D5600C /* WNSizeHeader.h */,
+				C96D3DCD1DD049EE00AA7FDA /* WNHttpServer.h */,
+				C96D3DCE1DD049EE00AA7FDA /* WNHttpServer.m */,
 			);
-			name = "公共信息";
+			name = publicClass;
 			sourceTree = "<group>";
 		};
-		F0259D0A1DCD6A1300D5600C /* 上传界面 */ = {
+		F0259D0A1DCD6A1300D5600C /* upload */ = {
 			isa = PBXGroup;
 			children = (
 				F0259D1A1DCD6E5800D5600C /* model */,
 				F0259D1B1DCD6E6700D5600C /* View */,
 				F0259D191DCD6E4400D5600C /* VC */,
 			);
-			name = "上传界面";
+			name = upload;
 			sourceTree = "<group>";
 		};
-		F0259D0E1DCD6A5A00D5600C /* 我的资源 */ = {
+		F0259D0E1DCD6A5A00D5600C /* myResource */ = {
 			isa = PBXGroup;
 			children = (
 				F0259D0F1DCD6A7C00D5600C /* WNMyResourceViewController.h */,
 				F0259D101DCD6A7C00D5600C /* WNMyResourceViewController.m */,
 			);
-			name = "我的资源";
+			name = myResource;
 			sourceTree = "<group>";
 		};
-		F0259D121DCD6D0B00D5600C /* 公共控件 */ = {
+		F0259D121DCD6D0B00D5600C /* publicControl */ = {
 			isa = PBXGroup;
 			children = (
 				F0259D131DCD6D8600D5600C /* WN_Style1_Button.h */,
@@ -219,7 +230,7 @@
 				F0259D161DCD6DB700D5600C /* WN_Style1_TextField.h */,
 				F0259D171DCD6DB700D5600C /* WN_Style1_TextField.m */,
 			);
-			name = "公共控件";
+			name = publicControl;
 			sourceTree = "<group>";
 		};
 		F0259D191DCD6E4400D5600C /* VC */ = {
@@ -234,6 +245,10 @@
 		F0259D1A1DCD6E5800D5600C /* model */ = {
 			isa = PBXGroup;
 			children = (
+				C96D3DD01DD067B100AA7FDA /* AsyncSocket.h */,
+				C96D3DD11DD067B100AA7FDA /* AsyncSocket.m */,
+				C96D3DD21DD067B100AA7FDA /* AsyncUdpSocket.h */,
+				C96D3DD31DD067B100AA7FDA /* AsyncUdpSocket.m */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -340,7 +355,7 @@
 				TargetAttributes = {
 					F0259CC91DCD645D00D5600C = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = W6ZN6C89QW;
+						DevelopmentTeam = 2LLR85JHQ3;
 						ProvisioningStyle = Automatic;
 					};
 					F0259CE21DCD645D00D5600C = {
@@ -410,12 +425,15 @@
 				F0259D151DCD6D8600D5600C /* WN_Style1_Button.m in Sources */,
 				F0B02FBA1DCD7EB80065F055 /* WNLoginViewController.m in Sources */,
 				F0259D1E1DCD6EB900D5600C /* WNLoginView.m in Sources */,
+				C96D3DD51DD067B100AA7FDA /* AsyncUdpSocket.m in Sources */,
 				F0259D0D1DCD6A4500D5600C /* WNUploadViewController.m in Sources */,
 				F0259CD21DCD645D00D5600C /* WNAppDelegate.m in Sources */,
 				F0259D041DCD659600D5600C /* WNInfoViewController.m in Sources */,
 				F0259CCF1DCD645D00D5600C /* main.m in Sources */,
+				C96D3DD41DD067B100AA7FDA /* AsyncSocket.m in Sources */,
 				F0259D181DCD6DB700D5600C /* WN_Style1_TextField.m in Sources */,
 				F0259D111DCD6A7C00D5600C /* WNMyResourceViewController.m in Sources */,
+				C96D3DCF1DD049EE00AA7FDA /* WNHttpServer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,7 +580,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = W6ZN6C89QW;
+				DEVELOPMENT_TEAM = 2LLR85JHQ3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/WNTools/PrefixHeader.pch";
 				INFOPLIST_FILE = WNTools/Info.plist;
@@ -576,7 +594,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = W6ZN6C89QW;
+				DEVELOPMENT_TEAM = 2LLR85JHQ3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/WNTools/PrefixHeader.pch";
 				INFOPLIST_FILE = WNTools/Info.plist;
