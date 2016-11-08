@@ -20,6 +20,9 @@
 		C9C16E221DD1A49800A5244A /* WNNovelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C16E211DD1A49800A5244A /* WNNovelViewController.m */; };
 		C9C16E251DD1A5A200A5244A /* WNNovelListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C16E241DD1A5A200A5244A /* WNNovelListViewController.m */; };
 		C9C16E281DD1A7FA00A5244A /* WNMovieListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C16E271DD1A7FA00A5244A /* WNMovieListViewController.m */; };
+		C9C16E2A1DD1B48300A5244A /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = C9C16E291DD1B48300A5244A /* index.html */; };
+		C9C16E2C1DD1BAFB00A5244A /* 123.lrc in Resources */ = {isa = PBXBuildFile; fileRef = C9C16E2B1DD1BAFB00A5244A /* 123.lrc */; };
+		C9C16E2F1DD1BBA800A5244A /* WNLrcParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C16E2E1DD1BBA800A5244A /* WNLrcParser.m */; };
 		F0259CCF1DCD645D00D5600C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0259CCE1DCD645D00D5600C /* main.m */; };
 		F0259CD21DCD645D00D5600C /* WNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0259CD11DCD645D00D5600C /* WNAppDelegate.m */; };
 		F0259CD81DCD645D00D5600C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0259CD61DCD645D00D5600C /* Main.storyboard */; };
@@ -78,6 +81,10 @@
 		C9C16E241DD1A5A200A5244A /* WNNovelListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNNovelListViewController.m; sourceTree = "<group>"; };
 		C9C16E261DD1A7FA00A5244A /* WNMovieListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNMovieListViewController.h; sourceTree = "<group>"; };
 		C9C16E271DD1A7FA00A5244A /* WNMovieListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNMovieListViewController.m; sourceTree = "<group>"; };
+		C9C16E291DD1B48300A5244A /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		C9C16E2B1DD1BAFB00A5244A /* 123.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 123.lrc; sourceTree = "<group>"; };
+		C9C16E2D1DD1BBA800A5244A /* WNLrcParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNLrcParser.h; sourceTree = "<group>"; };
+		C9C16E2E1DD1BBA800A5244A /* WNLrcParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNLrcParser.m; sourceTree = "<group>"; };
 		F0259CCA1DCD645D00D5600C /* WNTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WNTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0259CCE1DCD645D00D5600C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F0259CD01DCD645D00D5600C /* WNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WNAppDelegate.h; sourceTree = "<group>"; };
@@ -162,8 +169,8 @@
 			isa = PBXGroup;
 			children = (
 				C9C16E051DD182C700A5244A /* model */,
-				C9C16E061DD182D300A5244A /* View */,
 				C9C16E041DD182BF00A5244A /* VC */,
+				C9C16E061DD182D300A5244A /* View */,
 			);
 			name = song;
 			sourceTree = "<group>";
@@ -172,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				C9C16E131DD19F6D00A5244A /* 123.mp3 */,
+				C9C16E2B1DD1BAFB00A5244A /* 123.lrc */,
 				C9C16E071DD1830C00A5244A /* WNSongListViewController.h */,
 				C9C16E081DD1830C00A5244A /* WNSongListViewController.m */,
 				C9C16E101DD1991100A5244A /* WNSongPlayerViewController.h */,
@@ -183,6 +191,8 @@
 		C9C16E051DD182C700A5244A /* model */ = {
 			isa = PBXGroup;
 			children = (
+				C9C16E2D1DD1BBA800A5244A /* WNLrcParser.h */,
+				C9C16E2E1DD1BBA800A5244A /* WNLrcParser.m */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -305,6 +315,7 @@
 				C9C16E031DD182A400A5244A /* song */,
 				C9C16E151DD1A40C00A5244A /* movie */,
 				C9C16E1C1DD1A45300A5244A /* novel */,
+				C9C16E291DD1B48300A5244A /* index.html */,
 				F0259CD61DCD645D00D5600C /* Main.storyboard */,
 				F0259CD91DCD645D00D5600C /* Assets.xcassets */,
 				F0259CDB1DCD645D00D5600C /* LaunchScreen.storyboard */,
@@ -570,7 +581,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9C16E2A1DD1B48300A5244A /* index.html in Resources */,
 				F0259CDD1DCD645D00D5600C /* LaunchScreen.storyboard in Resources */,
+				C9C16E2C1DD1BAFB00A5244A /* 123.lrc in Resources */,
 				F0259CDA1DCD645D00D5600C /* Assets.xcassets in Resources */,
 				F0259CD81DCD645D00D5600C /* Main.storyboard in Resources */,
 				C9C16E141DD19F6D00A5244A /* 123.mp3 in Resources */,
@@ -612,6 +625,7 @@
 				C96D3DD41DD067B100AA7FDA /* AsyncSocket.m in Sources */,
 				C9C16E091DD1830C00A5244A /* WNSongListViewController.m in Sources */,
 				C9C16E221DD1A49800A5244A /* WNNovelViewController.m in Sources */,
+				C9C16E2F1DD1BBA800A5244A /* WNLrcParser.m in Sources */,
 				C9C16E281DD1A7FA00A5244A /* WNMovieListViewController.m in Sources */,
 				F0259D181DCD6DB700D5600C /* WN_Style1_TextField.m in Sources */,
 				F0259D111DCD6A7C00D5600C /* WNMyResourceViewController.m in Sources */,
