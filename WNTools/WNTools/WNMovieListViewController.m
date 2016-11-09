@@ -8,18 +8,66 @@
 
 #import "WNMovieListViewController.h"
 
-@interface WNMovieListViewController ()
+@interface WNMovieListViewController ()<UITableViewDelegate,UITableViewDataSource>
+@property(nonatomic,strong)NSArray *datasource;
+@property(nonatomic,strong)UITableView *tableView;
 
 @end
 
 @implementation WNMovieListViewController
 
-- (void)viewDidLoad {
+-(NSArray *)datasource
+{
+    if (!_datasource)
+    {
+        self.datasource = [NSArray array];
+    }
+    return _datasource;
+}
+
+-(UITableView *)tableView
+{
+    if (!_tableView)
+    {
+        self.tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, WIDTH, HEIGHT-61) style:UITableViewStylePlain];
+        _tableView.delegate = self;
+        _tableView.dataSource = self;
+    }
+    return _tableView;
+}
+
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"我的视频";
     
+    [self.view addSubview:self.tableView];
+    self.datasource = @[@"老男孩"];
+}
+
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 1;
+}
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 1;
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *cellStr = @"cell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellStr];
+    if (!cell)
+    {
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellStr];
+    }
+    cell.textLabel.text = self.datasource[indexPath.row];
+    cell.textLabel.textColor = [UIColor blackColor];
+    return cell;
 }
 
 - (void)didReceiveMemoryWarning {
