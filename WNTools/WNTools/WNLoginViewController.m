@@ -45,6 +45,8 @@
 
 -(void)clickLoginBtn:(UIButton *)sender
 {
+    [self.passwordTField resignFirstResponder];
+    [self.usernameTField resignFirstResponder];
     NSString *url = [NSString stringWithFormat:@"%@%@",SERVER_HOST,SERVER_LOGIN];
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc]initWithURL:[NSURL URLWithString:url]];
     NSURLSession *session = [NSURLSession sharedSession];
@@ -53,9 +55,23 @@
     NSData *strdata = [str dataUsingEncoding:NSUTF8StringEncoding];
     [request setHTTPMethod:@"POST"];
     
+    __weak WNLoginViewController *weakSelf = self;
     NSURLSessionDataTask *task = [session uploadTaskWithRequest:request fromData:strdata completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
         NSString *s = [[NSString alloc]initWithData:data encoding:NSUTF8StringEncoding];
-        NSLog(@"");
+        NSData *strData = [s dataUsingEncoding:NSUTF8StringEncoding];
+        NSDictionary *json = [NSJSONSerialization JSONObjectWithData:strData options:NSJSONReadingAllowFragments error:nil];
+        if (json)
+        {
+            if ([json[@"code"] integerValue]==200)
+            {
+                [weakSelf.navigationController popViewControllerAnimated:YES];
+            }else if ([json[@"code"] integerValue]==403)
+            {
+                NSLog(@"");
+            }
+        }
+        
+        
     }];
     [task resume];
     
