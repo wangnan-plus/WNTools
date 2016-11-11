@@ -147,6 +147,8 @@
 		C9C16E001DD1826800A5244A /* VC */ = {
 			isa = PBXGroup;
 			children = (
+				F0259D0F1DCD6A7C00D5600C /* WNMyResourceViewController.h */,
+				F0259D101DCD6A7C00D5600C /* WNMyResourceViewController.m */,
 			);
 			name = VC;
 			sourceTree = "<group>";
@@ -400,8 +402,6 @@
 				C9C16E011DD1827300A5244A /* model */,
 				C9C16E021DD1828100A5244A /* View */,
 				C9C16E001DD1826800A5244A /* VC */,
-				F0259D0F1DCD6A7C00D5600C /* WNMyResourceViewController.h */,
-				F0259D101DCD6A7C00D5600C /* WNMyResourceViewController.m */,
 			);
 			name = myResource;
 			sourceTree = "<group>";

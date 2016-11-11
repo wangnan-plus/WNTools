@@ -64,7 +64,12 @@
         {
             if ([json[@"code"] integerValue]==200)
             {
-                [weakSelf.navigationController popViewControllerAnimated:YES];
+                NSString *token = json[@"token"];
+                [[NSUserDefaults standardUserDefaults]setValue:token forKey:@"token"];
+                dispatch_async(dispatch_get_main_queue(), ^{
+                 [weakSelf.navigationController popViewControllerAnimated:YES];   
+                });
+                
             }else if ([json[@"code"] integerValue]==403)
             {
                 NSLog(@"");

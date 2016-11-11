@@ -13,6 +13,7 @@
 #define SERVER_LOGIN  @"/Login.php" //登录接口
 #define SERVER_REGISTER   @"/register.php" //注册接口
 #define SERVER_SONGLRC   @"http://geci.me/api/lyric/%@"//歌词接口
+#define SERVER_USERINFO  @"/userInfo.php" //用户信息
 
 #import <Foundation/Foundation.h>
 

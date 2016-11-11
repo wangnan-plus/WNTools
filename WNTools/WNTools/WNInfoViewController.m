@@ -41,6 +41,40 @@
     return _datasource;
 }
 
+-(void)viewWillAppear:(BOOL)animated
+{
+    NSString *url = [NSString stringWithFormat:@"%@%@",SERVER_HOST,SERVER_USERINFO];
+    NSMutableURLRequest *request = [[NSMutableURLRequest alloc]initWithURL:[NSURL URLWithString:url]];
+    [request setValue:[[NSUserDefaults standardUserDefaults] objectForKey:@"token"] forHTTPHeaderField:@"token"];
+    NSURLSession *session = [NSURLSession sharedSession];
+    __weak WNLoginViewController *weakSelf = self;
+    NSURLSessionDataTask *task = [session uploadTaskWithRequest:request fromData:nil completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+        NSString *s = [[NSString alloc]initWithData:data encoding:NSUTF8StringEncoding];
+        NSData *strData = [s dataUsingEncoding:NSUTF8StringEncoding];
+        NSDictionary *json = [NSJSONSerialization JSONObjectWithData:strData options:NSJSONReadingAllowFragments error:nil];
+        if (json)
+        {
+            if ([json[@"code"] integerValue]==200)
+            {
+                NSString *token = json[@"token"];
+                [[NSUserDefaults standardUserDefaults]setValue:token forKey:@"token"];
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    [weakSelf.navigationController popViewControllerAnimated:YES];
+                });
+                
+            }else if ([json[@"code"] integerValue]==403)
+            {
+                NSLog(@"");
+            }
+        }
+        
+        
+    }];
+    [task resume];
+    
+    
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
