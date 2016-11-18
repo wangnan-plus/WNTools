@@ -1,0 +1,9 @@
+platform :ios,'8.0'
+
+target 'WNTools' do  
+
+pod 'UMengUShare/Social/Sina'
+pod 'UMengUShare/Social/WeChat'
+pod 'UMengUShare/Social/QQ'
+
+end

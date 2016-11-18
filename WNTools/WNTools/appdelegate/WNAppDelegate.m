@@ -8,6 +8,7 @@
 
 #import "WNAppDelegate.h"
 #import "WNTabbarController.h"
+#import <UMSocialCore/UMSocialCore.h>
 
 @interface WNAppDelegate ()
 
@@ -21,6 +22,8 @@
     
     WNTabbarController *tabC = [[WNTabbarController alloc]init];
     self.window.rootViewController = tabC;
+    
+    [[UMSocialManager defaultManager]setUmSocialAppkey:@"582e99654ad1566b42001cec"];
     
     [self.window makeKeyAndVisible];
     return YES;
