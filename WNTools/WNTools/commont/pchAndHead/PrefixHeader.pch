@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  WNTools
+//
+//  Created by 丁乾坤 on 2016/11/5.
+//  Copyright © 2016年 王楠. All rights reserved.
+//
+
+/*********************************  全局头文件   *********************************/
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+/******  自己创建的头文件  *****/
+
+#include "WNServer.h"
+#include "WNSizeHeader.h"
+
+
+
+
+
+/******  第三方头文件  *****/
+
+
+
+
+#endif

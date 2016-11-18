@@ -7,36 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C96D3DCF1DD049EE00AA7FDA /* WNHttpServer.m in Sources */ = {isa = PBXBuildFile; fileRef = C96D3DCE1DD049EE00AA7FDA /* WNHttpServer.m */; };
-		C96D3DD41DD067B100AA7FDA /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C96D3DD11DD067B100AA7FDA /* AsyncSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C96D3DD51DD067B100AA7FDA /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C96D3DD31DD067B100AA7FDA /* AsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C9C16DFB1DD1676A00A5244A /* WNStartUploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C16DFA1DD1676A00A5244A /* WNStartUploadViewController.m */; };
-		C9C16E091DD1830C00A5244A /* WNSongListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C16E081DD1830C00A5244A /* WNSongListViewController.m */; };
-		C9C16E0C1DD1867E00A5244A /* WNDatebaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C16E0B1DD1867E00A5244A /* WNDatebaseManager.m */; };
 		C9C16E0F1DD1950700A5244A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C16E0E1DD1950700A5244A /* libsqlite3.tbd */; };
-		C9C16E121DD1991100A5244A /* WNSongPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C16E111DD1991100A5244A /* WNSongPlayerViewController.m */; };
-		C9C16E141DD19F6D00A5244A /* 123.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9C16E131DD19F6D00A5244A /* 123.mp3 */; };
-		C9C16E1B1DD1A44800A5244A /* WNMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C16E1A1DD1A44800A5244A /* WNMovieViewController.m */; };
-		C9C16E221DD1A49800A5244A /* WNNovelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C16E211DD1A49800A5244A /* WNNovelViewController.m */; };
-		C9C16E251DD1A5A200A5244A /* WNNovelListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C16E241DD1A5A200A5244A /* WNNovelListViewController.m */; };
-		C9C16E281DD1A7FA00A5244A /* WNMovieListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C16E271DD1A7FA00A5244A /* WNMovieListViewController.m */; };
-		C9C16E2A1DD1B48300A5244A /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = C9C16E291DD1B48300A5244A /* index.html */; };
-		C9C16E2C1DD1BAFB00A5244A /* 123.lrc in Resources */ = {isa = PBXBuildFile; fileRef = C9C16E2B1DD1BAFB00A5244A /* 123.lrc */; };
-		C9C16E2F1DD1BBA800A5244A /* WNLrcParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C16E2E1DD1BBA800A5244A /* WNLrcParser.m */; };
-		F0259CCF1DCD645D00D5600C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0259CCE1DCD645D00D5600C /* main.m */; };
-		F0259CD21DCD645D00D5600C /* WNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0259CD11DCD645D00D5600C /* WNAppDelegate.m */; };
-		F0259CD81DCD645D00D5600C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0259CD61DCD645D00D5600C /* Main.storyboard */; };
 		F0259CDA1DCD645D00D5600C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0259CD91DCD645D00D5600C /* Assets.xcassets */; };
 		F0259CDD1DCD645D00D5600C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0259CDB1DCD645D00D5600C /* LaunchScreen.storyboard */; };
 		F0259CE81DCD645D00D5600C /* WNToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0259CE71DCD645D00D5600C /* WNToolsTests.m */; };
 		F0259CF31DCD645D00D5600C /* WNToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0259CF21DCD645D00D5600C /* WNToolsUITests.m */; };
-		F0259D041DCD659600D5600C /* WNInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0259D031DCD659600D5600C /* WNInfoViewController.m */; };
-		F0259D0D1DCD6A4500D5600C /* WNUploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0259D0C1DCD6A4500D5600C /* WNUploadViewController.m */; };
-		F0259D111DCD6A7C00D5600C /* WNMyResourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0259D101DCD6A7C00D5600C /* WNMyResourceViewController.m */; };
-		F0259D151DCD6D8600D5600C /* WN_Style1_Button.m in Sources */ = {isa = PBXBuildFile; fileRef = F0259D141DCD6D8600D5600C /* WN_Style1_Button.m */; };
-		F0259D181DCD6DB700D5600C /* WN_Style1_TextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F0259D171DCD6DB700D5600C /* WN_Style1_TextField.m */; };
-		F0259D1E1DCD6EB900D5600C /* WNLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0259D1D1DCD6EB900D5600C /* WNLoginView.m */; };
-		F0B02FBA1DCD7EB80065F055 /* WNLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B02FB91DCD7EB80065F055 /* WNLoginViewController.m */; };
+		F0B8D95D1DD598EE00ECD74F /* WNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B8D95C1DD598EE00ECD74F /* WNAppDelegate.m */; };
+		F0B8D9941DD5998400ECD74F /* WNInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B8D9681DD5998400ECD74F /* WNInfoViewController.m */; };
+		F0B8D9951DD5998400ECD74F /* WNMyResourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B8D96B1DD5998400ECD74F /* WNMyResourceViewController.m */; };
+		F0B8D9961DD5998400ECD74F /* WNLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B8D9701DD5998400ECD74F /* WNLoginViewController.m */; };
+		F0B8D9971DD5998400ECD74F /* WNLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B8D9741DD5998400ECD74F /* WNLoginView.m */; };
+		F0B8D9981DD5998400ECD74F /* WNMovieListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B8D9781DD5998400ECD74F /* WNMovieListViewController.m */; };
+		F0B8D9991DD5998400ECD74F /* WNMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B8D97A1DD5998400ECD74F /* WNMovieViewController.m */; };
+		F0B8D99A1DD5998400ECD74F /* WNNovelListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B8D9801DD5998400ECD74F /* WNNovelListViewController.m */; };
+		F0B8D99B1DD5998400ECD74F /* WNNovelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B8D9821DD5998400ECD74F /* WNNovelViewController.m */; };
+		F0B8D99C1DD5998400ECD74F /* WNSongListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B8D9881DD5998400ECD74F /* WNSongListViewController.m */; };
+		F0B8D99D1DD5998400ECD74F /* WNSongPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B8D98A1DD5998400ECD74F /* WNSongPlayerViewController.m */; };
+		F0B8D99E1DD5998400ECD74F /* WNLrcParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B8D98D1DD5998400ECD74F /* WNLrcParser.m */; };
+		F0B8D99F1DD5998400ECD74F /* WNStartUploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B8D9911DD5998400ECD74F /* WNStartUploadViewController.m */; };
+		F0B8D9A01DD5998400ECD74F /* WNUploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B8D9931DD5998400ECD74F /* WNUploadViewController.m */; };
+		F0B8D9BD1DD5998E00ECD74F /* WNNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B8D9A41DD5998E00ECD74F /* WNNavigationController.m */; };
+		F0B8D9BE1DD5998E00ECD74F /* WNTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B8D9A61DD5998E00ECD74F /* WNTabbarController.m */; };
+		F0B8D9BF1DD5998E00ECD74F /* WNDatebaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B8D9A91DD5998E00ECD74F /* WNDatebaseManager.m */; };
+		F0B8D9C01DD5998E00ECD74F /* WN_Style1_Button.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B8D9AD1DD5998E00ECD74F /* WN_Style1_Button.m */; };
+		F0B8D9C11DD5998E00ECD74F /* WN_Style1_TextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B8D9B01DD5998E00ECD74F /* WN_Style1_TextField.m */; };
+		F0B8D9C21DD5998E00ECD74F /* WNHttpServer.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B8D9B31DD5998E00ECD74F /* WNHttpServer.m */; };
+		F0B8D9C31DD5998E00ECD74F /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B8D9BA1DD5998E00ECD74F /* AsyncSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F0B8D9C41DD5998E00ECD74F /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B8D9BC1DD5998E00ECD74F /* AsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F0B8D9D11DD59E0E00ECD74F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0B8D9D01DD59E0E00ECD74F /* Info.plist */; };
+		F0B8D9D31DD59E2500ECD74F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B8D9D21DD59E2500ECD74F /* main.m */; };
+		F0B8D9D91DD59E4C00ECD74F /* 123.lrc in Resources */ = {isa = PBXBuildFile; fileRef = F0B8D9D51DD59E4C00ECD74F /* 123.lrc */; };
+		F0B8D9DA1DD59E4C00ECD74F /* 123.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F0B8D9D61DD59E4C00ECD74F /* 123.mp3 */; };
+		F0B8D9DB1DD59E4C00ECD74F /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = F0B8D9D71DD59E4C00ECD74F /* index.html */; };
+		F0B8D9DC1DD59E4C00ECD74F /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F0B8D9D81DD59E4C00ECD74F /* test.mp4 */; };
+		F0B8D9DF1DD59F6800ECD74F /* WNGlobConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B8D9DE1DD59F6800ECD74F /* WNGlobConstant.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,65 +61,71 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C96D3DCD1DD049EE00AA7FDA /* WNHttpServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNHttpServer.h; sourceTree = "<group>"; };
-		C96D3DCE1DD049EE00AA7FDA /* WNHttpServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNHttpServer.m; sourceTree = "<group>"; };
-		C96D3DD01DD067B100AA7FDA /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
-		C96D3DD11DD067B100AA7FDA /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
-		C96D3DD21DD067B100AA7FDA /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
-		C96D3DD31DD067B100AA7FDA /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
-		C9C16DF91DD1676A00A5244A /* WNStartUploadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNStartUploadViewController.h; sourceTree = "<group>"; };
-		C9C16DFA1DD1676A00A5244A /* WNStartUploadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNStartUploadViewController.m; sourceTree = "<group>"; };
-		C9C16E071DD1830C00A5244A /* WNSongListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNSongListViewController.h; sourceTree = "<group>"; };
-		C9C16E081DD1830C00A5244A /* WNSongListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNSongListViewController.m; sourceTree = "<group>"; };
-		C9C16E0A1DD1867E00A5244A /* WNDatebaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNDatebaseManager.h; sourceTree = "<group>"; };
-		C9C16E0B1DD1867E00A5244A /* WNDatebaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNDatebaseManager.m; sourceTree = "<group>"; };
 		C9C16E0E1DD1950700A5244A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		C9C16E101DD1991100A5244A /* WNSongPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNSongPlayerViewController.h; sourceTree = "<group>"; };
-		C9C16E111DD1991100A5244A /* WNSongPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNSongPlayerViewController.m; sourceTree = "<group>"; };
-		C9C16E131DD19F6D00A5244A /* 123.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 123.mp3; sourceTree = "<group>"; };
-		C9C16E191DD1A44800A5244A /* WNMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNMovieViewController.h; sourceTree = "<group>"; };
-		C9C16E1A1DD1A44800A5244A /* WNMovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNMovieViewController.m; sourceTree = "<group>"; };
-		C9C16E201DD1A49800A5244A /* WNNovelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNNovelViewController.h; sourceTree = "<group>"; };
-		C9C16E211DD1A49800A5244A /* WNNovelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNNovelViewController.m; sourceTree = "<group>"; };
-		C9C16E231DD1A5A200A5244A /* WNNovelListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNNovelListViewController.h; sourceTree = "<group>"; };
-		C9C16E241DD1A5A200A5244A /* WNNovelListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNNovelListViewController.m; sourceTree = "<group>"; };
-		C9C16E261DD1A7FA00A5244A /* WNMovieListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNMovieListViewController.h; sourceTree = "<group>"; };
-		C9C16E271DD1A7FA00A5244A /* WNMovieListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNMovieListViewController.m; sourceTree = "<group>"; };
-		C9C16E291DD1B48300A5244A /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		C9C16E2B1DD1BAFB00A5244A /* 123.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 123.lrc; sourceTree = "<group>"; };
-		C9C16E2D1DD1BBA800A5244A /* WNLrcParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNLrcParser.h; sourceTree = "<group>"; };
-		C9C16E2E1DD1BBA800A5244A /* WNLrcParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNLrcParser.m; sourceTree = "<group>"; };
 		F0259CCA1DCD645D00D5600C /* WNTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WNTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0259CCE1DCD645D00D5600C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F0259CD01DCD645D00D5600C /* WNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WNAppDelegate.h; sourceTree = "<group>"; };
-		F0259CD11DCD645D00D5600C /* WNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WNAppDelegate.m; sourceTree = "<group>"; };
-		F0259CD71DCD645D00D5600C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F0259CD91DCD645D00D5600C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0259CDC1DCD645D00D5600C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F0259CDE1DCD645D00D5600C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0259CE31DCD645D00D5600C /* WNToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WNToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0259CE71DCD645D00D5600C /* WNToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WNToolsTests.m; sourceTree = "<group>"; };
 		F0259CE91DCD645D00D5600C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0259CEE1DCD645D00D5600C /* WNToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WNToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0259CF21DCD645D00D5600C /* WNToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WNToolsUITests.m; sourceTree = "<group>"; };
 		F0259CF41DCD645D00D5600C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F0259D021DCD659600D5600C /* WNInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNInfoViewController.h; sourceTree = "<group>"; };
-		F0259D031DCD659600D5600C /* WNInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNInfoViewController.m; sourceTree = "<group>"; };
-		F0259D061DCD65E600D5600C /* WNServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNServer.h; sourceTree = "<group>"; };
-		F0259D091DCD677300D5600C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		F0259D0B1DCD6A4500D5600C /* WNUploadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNUploadViewController.h; sourceTree = "<group>"; };
-		F0259D0C1DCD6A4500D5600C /* WNUploadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNUploadViewController.m; sourceTree = "<group>"; };
-		F0259D0F1DCD6A7C00D5600C /* WNMyResourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNMyResourceViewController.h; sourceTree = "<group>"; };
-		F0259D101DCD6A7C00D5600C /* WNMyResourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNMyResourceViewController.m; sourceTree = "<group>"; };
-		F0259D131DCD6D8600D5600C /* WN_Style1_Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WN_Style1_Button.h; sourceTree = "<group>"; };
-		F0259D141DCD6D8600D5600C /* WN_Style1_Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WN_Style1_Button.m; sourceTree = "<group>"; };
-		F0259D161DCD6DB700D5600C /* WN_Style1_TextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WN_Style1_TextField.h; sourceTree = "<group>"; };
-		F0259D171DCD6DB700D5600C /* WN_Style1_TextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WN_Style1_TextField.m; sourceTree = "<group>"; };
-		F0259D1C1DCD6EB900D5600C /* WNLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNLoginView.h; sourceTree = "<group>"; };
-		F0259D1D1DCD6EB900D5600C /* WNLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNLoginView.m; sourceTree = "<group>"; };
-		F0259D231DCD777200D5600C /* WNSizeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WNSizeHeader.h; sourceTree = "<group>"; };
-		F0B02FB81DCD7EB80065F055 /* WNLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNLoginViewController.h; sourceTree = "<group>"; };
-		F0B02FB91DCD7EB80065F055 /* WNLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNLoginViewController.m; sourceTree = "<group>"; };
+		F0B8D95B1DD598EE00ECD74F /* WNAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNAppDelegate.h; sourceTree = "<group>"; };
+		F0B8D95C1DD598EE00ECD74F /* WNAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNAppDelegate.m; sourceTree = "<group>"; };
+		F0B8D9671DD5998400ECD74F /* WNInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNInfoViewController.h; sourceTree = "<group>"; };
+		F0B8D9681DD5998400ECD74F /* WNInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNInfoViewController.m; sourceTree = "<group>"; };
+		F0B8D96A1DD5998400ECD74F /* WNMyResourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNMyResourceViewController.h; sourceTree = "<group>"; };
+		F0B8D96B1DD5998400ECD74F /* WNMyResourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNMyResourceViewController.m; sourceTree = "<group>"; };
+		F0B8D96F1DD5998400ECD74F /* WNLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNLoginViewController.h; sourceTree = "<group>"; };
+		F0B8D9701DD5998400ECD74F /* WNLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNLoginViewController.m; sourceTree = "<group>"; };
+		F0B8D9731DD5998400ECD74F /* WNLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNLoginView.h; sourceTree = "<group>"; };
+		F0B8D9741DD5998400ECD74F /* WNLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNLoginView.m; sourceTree = "<group>"; };
+		F0B8D9771DD5998400ECD74F /* WNMovieListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNMovieListViewController.h; sourceTree = "<group>"; };
+		F0B8D9781DD5998400ECD74F /* WNMovieListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNMovieListViewController.m; sourceTree = "<group>"; };
+		F0B8D9791DD5998400ECD74F /* WNMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNMovieViewController.h; sourceTree = "<group>"; };
+		F0B8D97A1DD5998400ECD74F /* WNMovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNMovieViewController.m; sourceTree = "<group>"; };
+		F0B8D97F1DD5998400ECD74F /* WNNovelListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNNovelListViewController.h; sourceTree = "<group>"; };
+		F0B8D9801DD5998400ECD74F /* WNNovelListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNNovelListViewController.m; sourceTree = "<group>"; };
+		F0B8D9811DD5998400ECD74F /* WNNovelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNNovelViewController.h; sourceTree = "<group>"; };
+		F0B8D9821DD5998400ECD74F /* WNNovelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNNovelViewController.m; sourceTree = "<group>"; };
+		F0B8D9871DD5998400ECD74F /* WNSongListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNSongListViewController.h; sourceTree = "<group>"; };
+		F0B8D9881DD5998400ECD74F /* WNSongListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNSongListViewController.m; sourceTree = "<group>"; };
+		F0B8D9891DD5998400ECD74F /* WNSongPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNSongPlayerViewController.h; sourceTree = "<group>"; };
+		F0B8D98A1DD5998400ECD74F /* WNSongPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNSongPlayerViewController.m; sourceTree = "<group>"; };
+		F0B8D98C1DD5998400ECD74F /* WNLrcParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNLrcParser.h; sourceTree = "<group>"; };
+		F0B8D98D1DD5998400ECD74F /* WNLrcParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNLrcParser.m; sourceTree = "<group>"; };
+		F0B8D9901DD5998400ECD74F /* WNStartUploadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNStartUploadViewController.h; sourceTree = "<group>"; };
+		F0B8D9911DD5998400ECD74F /* WNStartUploadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNStartUploadViewController.m; sourceTree = "<group>"; };
+		F0B8D9921DD5998400ECD74F /* WNUploadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNUploadViewController.h; sourceTree = "<group>"; };
+		F0B8D9931DD5998400ECD74F /* WNUploadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNUploadViewController.m; sourceTree = "<group>"; };
+		F0B8D9A31DD5998E00ECD74F /* WNNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNNavigationController.h; sourceTree = "<group>"; };
+		F0B8D9A41DD5998E00ECD74F /* WNNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNNavigationController.m; sourceTree = "<group>"; };
+		F0B8D9A51DD5998E00ECD74F /* WNTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNTabbarController.h; sourceTree = "<group>"; };
+		F0B8D9A61DD5998E00ECD74F /* WNTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNTabbarController.m; sourceTree = "<group>"; };
+		F0B8D9A81DD5998E00ECD74F /* WNDatebaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNDatebaseManager.h; sourceTree = "<group>"; };
+		F0B8D9A91DD5998E00ECD74F /* WNDatebaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNDatebaseManager.m; sourceTree = "<group>"; };
+		F0B8D9AC1DD5998E00ECD74F /* WN_Style1_Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WN_Style1_Button.h; sourceTree = "<group>"; };
+		F0B8D9AD1DD5998E00ECD74F /* WN_Style1_Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WN_Style1_Button.m; sourceTree = "<group>"; };
+		F0B8D9AF1DD5998E00ECD74F /* WN_Style1_TextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WN_Style1_TextField.h; sourceTree = "<group>"; };
+		F0B8D9B01DD5998E00ECD74F /* WN_Style1_TextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WN_Style1_TextField.m; sourceTree = "<group>"; };
+		F0B8D9B21DD5998E00ECD74F /* WNHttpServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNHttpServer.h; sourceTree = "<group>"; };
+		F0B8D9B31DD5998E00ECD74F /* WNHttpServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNHttpServer.m; sourceTree = "<group>"; };
+		F0B8D9B51DD5998E00ECD74F /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F0B8D9B61DD5998E00ECD74F /* WNServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNServer.h; sourceTree = "<group>"; };
+		F0B8D9B71DD5998E00ECD74F /* WNSizeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNSizeHeader.h; sourceTree = "<group>"; };
+		F0B8D9B91DD5998E00ECD74F /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		F0B8D9BA1DD5998E00ECD74F /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		F0B8D9BB1DD5998E00ECD74F /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
+		F0B8D9BC1DD5998E00ECD74F /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
+		F0B8D9D01DD59E0E00ECD74F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0B8D9D21DD59E2500ECD74F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0B8D9D51DD59E4C00ECD74F /* 123.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 123.lrc; sourceTree = "<group>"; };
+		F0B8D9D61DD59E4C00ECD74F /* 123.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 123.mp3; sourceTree = "<group>"; };
+		F0B8D9D71DD59E4C00ECD74F /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		F0B8D9D81DD59E4C00ECD74F /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
+		F0B8D9DD1DD59F6800ECD74F /* WNGlobConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNGlobConstant.h; sourceTree = "<group>"; };
+		F0B8D9DE1DD59F6800ECD74F /* WNGlobConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNGlobConstant.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,144 +154,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C9C16E001DD1826800A5244A /* VC */ = {
-			isa = PBXGroup;
-			children = (
-				F0259D0F1DCD6A7C00D5600C /* WNMyResourceViewController.h */,
-				F0259D101DCD6A7C00D5600C /* WNMyResourceViewController.m */,
-			);
-			name = VC;
-			sourceTree = "<group>";
-		};
-		C9C16E011DD1827300A5244A /* model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = model;
-			sourceTree = "<group>";
-		};
-		C9C16E021DD1828100A5244A /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		C9C16E031DD182A400A5244A /* song */ = {
-			isa = PBXGroup;
-			children = (
-				C9C16E051DD182C700A5244A /* model */,
-				C9C16E041DD182BF00A5244A /* VC */,
-				C9C16E061DD182D300A5244A /* View */,
-			);
-			name = song;
-			sourceTree = "<group>";
-		};
-		C9C16E041DD182BF00A5244A /* VC */ = {
-			isa = PBXGroup;
-			children = (
-				C9C16E131DD19F6D00A5244A /* 123.mp3 */,
-				C9C16E2B1DD1BAFB00A5244A /* 123.lrc */,
-				C9C16E071DD1830C00A5244A /* WNSongListViewController.h */,
-				C9C16E081DD1830C00A5244A /* WNSongListViewController.m */,
-				C9C16E101DD1991100A5244A /* WNSongPlayerViewController.h */,
-				C9C16E111DD1991100A5244A /* WNSongPlayerViewController.m */,
-			);
-			name = VC;
-			sourceTree = "<group>";
-		};
-		C9C16E051DD182C700A5244A /* model */ = {
-			isa = PBXGroup;
-			children = (
-				C9C16E2D1DD1BBA800A5244A /* WNLrcParser.h */,
-				C9C16E2E1DD1BBA800A5244A /* WNLrcParser.m */,
-			);
-			name = model;
-			sourceTree = "<group>";
-		};
-		C9C16E061DD182D300A5244A /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
 		C9C16E0D1DD1950700A5244A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				C9C16E0E1DD1950700A5244A /* libsqlite3.tbd */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C9C16E151DD1A40C00A5244A /* movie */ = {
-			isa = PBXGroup;
-			children = (
-				C9C16E181DD1A43500A5244A /* view */,
-				C9C16E171DD1A42F00A5244A /* model */,
-				C9C16E161DD1A42600A5244A /* VC */,
-			);
-			name = movie;
-			sourceTree = "<group>";
-		};
-		C9C16E161DD1A42600A5244A /* VC */ = {
-			isa = PBXGroup;
-			children = (
-				C9C16E191DD1A44800A5244A /* WNMovieViewController.h */,
-				C9C16E1A1DD1A44800A5244A /* WNMovieViewController.m */,
-				C9C16E261DD1A7FA00A5244A /* WNMovieListViewController.h */,
-				C9C16E271DD1A7FA00A5244A /* WNMovieListViewController.m */,
-			);
-			name = VC;
-			sourceTree = "<group>";
-		};
-		C9C16E171DD1A42F00A5244A /* model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = model;
-			sourceTree = "<group>";
-		};
-		C9C16E181DD1A43500A5244A /* view */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = view;
-			sourceTree = "<group>";
-		};
-		C9C16E1C1DD1A45300A5244A /* novel */ = {
-			isa = PBXGroup;
-			children = (
-				C9C16E1E1DD1A47500A5244A /* model */,
-				C9C16E1F1DD1A47B00A5244A /* View */,
-				C9C16E1D1DD1A47000A5244A /* VC */,
-			);
-			name = novel;
-			sourceTree = "<group>";
-		};
-		C9C16E1D1DD1A47000A5244A /* VC */ = {
-			isa = PBXGroup;
-			children = (
-				C9C16E231DD1A5A200A5244A /* WNNovelListViewController.h */,
-				C9C16E241DD1A5A200A5244A /* WNNovelListViewController.m */,
-				C9C16E201DD1A49800A5244A /* WNNovelViewController.h */,
-				C9C16E211DD1A49800A5244A /* WNNovelViewController.m */,
-			);
-			name = VC;
-			sourceTree = "<group>";
-		};
-		C9C16E1E1DD1A47500A5244A /* model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = model;
-			sourceTree = "<group>";
-		};
-		C9C16E1F1DD1A47B00A5244A /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = View;
 			sourceTree = "<group>";
 		};
 		F0259CC11DCD645D00D5600C = {
@@ -308,20 +186,10 @@
 		F0259CCC1DCD645D00D5600C /* WNTools */ = {
 			isa = PBXGroup;
 			children = (
-				F0259D001DCD64CC00D5600C /* appDelegate */,
-				F0259D011DCD650100D5600C /* information */,
-				F0259D0A1DCD6A1300D5600C /* upload */,
-				F0259D0E1DCD6A5A00D5600C /* myResource */,
-				F0259D051DCD65A500D5600C /* publicClass */,
-				F0259D121DCD6D0B00D5600C /* publicControl */,
-				C9C16E031DD182A400A5244A /* song */,
-				C9C16E151DD1A40C00A5244A /* movie */,
-				C9C16E1C1DD1A45300A5244A /* novel */,
-				C9C16E291DD1B48300A5244A /* index.html */,
-				F0259CD61DCD645D00D5600C /* Main.storyboard */,
-				F0259CD91DCD645D00D5600C /* Assets.xcassets */,
-				F0259CDB1DCD645D00D5600C /* LaunchScreen.storyboard */,
-				F0259CDE1DCD645D00D5600C /* Info.plist */,
+				F0B8D95A1DD598EE00ECD74F /* appdelegate */,
+				F0B8D9A11DD5998E00ECD74F /* commont */,
+				F0B8D9651DD5998400ECD74F /* class */,
+				F0B8D9C71DD59DBD00ECD74F /* other */,
 				F0259CCD1DCD645D00D5600C /* Supporting Files */,
 			);
 			path = WNTools;
@@ -330,8 +198,10 @@
 		F0259CCD1DCD645D00D5600C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F0259CCE1DCD645D00D5600C /* main.m */,
-				F0259D091DCD677300D5600C /* PrefixHeader.pch */,
+				F0259CDB1DCD645D00D5600C /* LaunchScreen.storyboard */,
+				F0259CD91DCD645D00D5600C /* Assets.xcassets */,
+				F0B8D9D21DD59E2500ECD74F /* main.m */,
+				F0B8D9D01DD59E0E00ECD74F /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -354,123 +224,318 @@
 			path = WNToolsUITests;
 			sourceTree = "<group>";
 		};
-		F0259D001DCD64CC00D5600C /* appDelegate */ = {
+		F0B8D95A1DD598EE00ECD74F /* appdelegate */ = {
 			isa = PBXGroup;
 			children = (
-				F0259CD01DCD645D00D5600C /* WNAppDelegate.h */,
-				F0259CD11DCD645D00D5600C /* WNAppDelegate.m */,
+				F0B8D95B1DD598EE00ECD74F /* WNAppDelegate.h */,
+				F0B8D95C1DD598EE00ECD74F /* WNAppDelegate.m */,
 			);
-			name = appDelegate;
+			path = appdelegate;
 			sourceTree = "<group>";
 		};
-		F0259D011DCD650100D5600C /* information */ = {
+		F0B8D9651DD5998400ECD74F /* class */ = {
 			isa = PBXGroup;
 			children = (
-				F0259D211DCD722700D5600C /* model */,
-				F0259D201DCD722100D5600C /* View */,
-				F0259D1F1DCD721800D5600C /* VC */,
+				F0B8D96C1DD5998400ECD74F /* pulicController */,
+				F0B8D9661DD5998400ECD74F /* information */,
+				F0B8D9691DD5998400ECD74F /* myResource */,
+				F0B8D98F1DD5998400ECD74F /* upload */,
 			);
-			name = information;
+			path = class;
 			sourceTree = "<group>";
 		};
-		F0259D051DCD65A500D5600C /* publicClass */ = {
+		F0B8D9661DD5998400ECD74F /* information */ = {
 			isa = PBXGroup;
 			children = (
-				F0259D061DCD65E600D5600C /* WNServer.h */,
-				F0259D231DCD777200D5600C /* WNSizeHeader.h */,
-				C96D3DCD1DD049EE00AA7FDA /* WNHttpServer.h */,
-				C96D3DCE1DD049EE00AA7FDA /* WNHttpServer.m */,
-				C9C16E0A1DD1867E00A5244A /* WNDatebaseManager.h */,
-				C9C16E0B1DD1867E00A5244A /* WNDatebaseManager.m */,
+				F0B8D9671DD5998400ECD74F /* WNInfoViewController.h */,
+				F0B8D9681DD5998400ECD74F /* WNInfoViewController.m */,
 			);
-			name = publicClass;
+			path = information;
 			sourceTree = "<group>";
 		};
-		F0259D0A1DCD6A1300D5600C /* upload */ = {
+		F0B8D9691DD5998400ECD74F /* myResource */ = {
 			isa = PBXGroup;
 			children = (
-				F0259D1A1DCD6E5800D5600C /* model */,
-				F0259D1B1DCD6E6700D5600C /* View */,
-				F0259D191DCD6E4400D5600C /* VC */,
+				F0B8D96A1DD5998400ECD74F /* WNMyResourceViewController.h */,
+				F0B8D96B1DD5998400ECD74F /* WNMyResourceViewController.m */,
 			);
-			name = upload;
+			path = myResource;
 			sourceTree = "<group>";
 		};
-		F0259D0E1DCD6A5A00D5600C /* myResource */ = {
+		F0B8D96C1DD5998400ECD74F /* pulicController */ = {
 			isa = PBXGroup;
 			children = (
-				C9C16E011DD1827300A5244A /* model */,
-				C9C16E021DD1828100A5244A /* View */,
-				C9C16E001DD1826800A5244A /* VC */,
+				F0B8D96D1DD5998400ECD74F /* login */,
+				F0B8D9751DD5998400ECD74F /* movie */,
+				F0B8D97D1DD5998400ECD74F /* read */,
+				F0B8D9851DD5998400ECD74F /* song */,
 			);
-			name = myResource;
+			path = pulicController;
 			sourceTree = "<group>";
 		};
-		F0259D121DCD6D0B00D5600C /* publicControl */ = {
+		F0B8D96D1DD5998400ECD74F /* login */ = {
 			isa = PBXGroup;
 			children = (
-				F0259D131DCD6D8600D5600C /* WN_Style1_Button.h */,
-				F0259D141DCD6D8600D5600C /* WN_Style1_Button.m */,
-				F0259D161DCD6DB700D5600C /* WN_Style1_TextField.h */,
-				F0259D171DCD6DB700D5600C /* WN_Style1_TextField.m */,
+				F0B8D96E1DD5998400ECD74F /* controller */,
+				F0B8D9711DD5998400ECD74F /* model */,
+				F0B8D9721DD5998400ECD74F /* view */,
 			);
-			name = publicControl;
+			path = login;
 			sourceTree = "<group>";
 		};
-		F0259D191DCD6E4400D5600C /* VC */ = {
+		F0B8D96E1DD5998400ECD74F /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				F0259D0B1DCD6A4500D5600C /* WNUploadViewController.h */,
-				F0259D0C1DCD6A4500D5600C /* WNUploadViewController.m */,
-				C9C16DF91DD1676A00A5244A /* WNStartUploadViewController.h */,
-				C9C16DFA1DD1676A00A5244A /* WNStartUploadViewController.m */,
+				F0B8D96F1DD5998400ECD74F /* WNLoginViewController.h */,
+				F0B8D9701DD5998400ECD74F /* WNLoginViewController.m */,
 			);
-			name = VC;
+			path = controller;
 			sourceTree = "<group>";
 		};
-		F0259D1A1DCD6E5800D5600C /* model */ = {
+		F0B8D9711DD5998400ECD74F /* model */ = {
 			isa = PBXGroup;
 			children = (
-				C96D3DD01DD067B100AA7FDA /* AsyncSocket.h */,
-				C96D3DD11DD067B100AA7FDA /* AsyncSocket.m */,
-				C96D3DD21DD067B100AA7FDA /* AsyncUdpSocket.h */,
-				C96D3DD31DD067B100AA7FDA /* AsyncUdpSocket.m */,
 			);
-			name = model;
+			path = model;
 			sourceTree = "<group>";
 		};
-		F0259D1B1DCD6E6700D5600C /* View */ = {
+		F0B8D9721DD5998400ECD74F /* view */ = {
 			isa = PBXGroup;
 			children = (
+				F0B8D9731DD5998400ECD74F /* WNLoginView.h */,
+				F0B8D9741DD5998400ECD74F /* WNLoginView.m */,
 			);
-			name = View;
+			path = view;
 			sourceTree = "<group>";
 		};
-		F0259D1F1DCD721800D5600C /* VC */ = {
+		F0B8D9751DD5998400ECD74F /* movie */ = {
 			isa = PBXGroup;
 			children = (
-				F0259D021DCD659600D5600C /* WNInfoViewController.h */,
-				F0259D031DCD659600D5600C /* WNInfoViewController.m */,
-				F0B02FB81DCD7EB80065F055 /* WNLoginViewController.h */,
-				F0B02FB91DCD7EB80065F055 /* WNLoginViewController.m */,
+				F0B8D9761DD5998400ECD74F /* controller */,
+				F0B8D97B1DD5998400ECD74F /* model */,
+				F0B8D97C1DD5998400ECD74F /* view */,
 			);
-			name = VC;
+			path = movie;
 			sourceTree = "<group>";
 		};
-		F0259D201DCD722100D5600C /* View */ = {
+		F0B8D9761DD5998400ECD74F /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				F0259D1C1DCD6EB900D5600C /* WNLoginView.h */,
-				F0259D1D1DCD6EB900D5600C /* WNLoginView.m */,
+				F0B8D9771DD5998400ECD74F /* WNMovieListViewController.h */,
+				F0B8D9781DD5998400ECD74F /* WNMovieListViewController.m */,
+				F0B8D9791DD5998400ECD74F /* WNMovieViewController.h */,
+				F0B8D97A1DD5998400ECD74F /* WNMovieViewController.m */,
 			);
-			name = View;
+			path = controller;
 			sourceTree = "<group>";
 		};
-		F0259D211DCD722700D5600C /* model */ = {
+		F0B8D97B1DD5998400ECD74F /* model */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = model;
+			path = model;
+			sourceTree = "<group>";
+		};
+		F0B8D97C1DD5998400ECD74F /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F0B8D97D1DD5998400ECD74F /* read */ = {
+			isa = PBXGroup;
+			children = (
+				F0B8D97E1DD5998400ECD74F /* controller */,
+				F0B8D9831DD5998400ECD74F /* model */,
+				F0B8D9841DD5998400ECD74F /* view */,
+			);
+			path = read;
+			sourceTree = "<group>";
+		};
+		F0B8D97E1DD5998400ECD74F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F0B8D97F1DD5998400ECD74F /* WNNovelListViewController.h */,
+				F0B8D9801DD5998400ECD74F /* WNNovelListViewController.m */,
+				F0B8D9811DD5998400ECD74F /* WNNovelViewController.h */,
+				F0B8D9821DD5998400ECD74F /* WNNovelViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		F0B8D9831DD5998400ECD74F /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F0B8D9841DD5998400ECD74F /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F0B8D9851DD5998400ECD74F /* song */ = {
+			isa = PBXGroup;
+			children = (
+				F0B8D9861DD5998400ECD74F /* controller */,
+				F0B8D98B1DD5998400ECD74F /* model */,
+				F0B8D98E1DD5998400ECD74F /* view */,
+			);
+			path = song;
+			sourceTree = "<group>";
+		};
+		F0B8D9861DD5998400ECD74F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F0B8D9871DD5998400ECD74F /* WNSongListViewController.h */,
+				F0B8D9881DD5998400ECD74F /* WNSongListViewController.m */,
+				F0B8D9891DD5998400ECD74F /* WNSongPlayerViewController.h */,
+				F0B8D98A1DD5998400ECD74F /* WNSongPlayerViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		F0B8D98B1DD5998400ECD74F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F0B8D98C1DD5998400ECD74F /* WNLrcParser.h */,
+				F0B8D98D1DD5998400ECD74F /* WNLrcParser.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F0B8D98E1DD5998400ECD74F /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F0B8D98F1DD5998400ECD74F /* upload */ = {
+			isa = PBXGroup;
+			children = (
+				F0B8D9901DD5998400ECD74F /* WNStartUploadViewController.h */,
+				F0B8D9911DD5998400ECD74F /* WNStartUploadViewController.m */,
+				F0B8D9921DD5998400ECD74F /* WNUploadViewController.h */,
+				F0B8D9931DD5998400ECD74F /* WNUploadViewController.m */,
+			);
+			path = upload;
+			sourceTree = "<group>";
+		};
+		F0B8D9A11DD5998E00ECD74F /* commont */ = {
+			isa = PBXGroup;
+			children = (
+				F0B8D9A21DD5998E00ECD74F /* baseController */,
+				F0B8D9A71DD5998E00ECD74F /* databaseManger */,
+				F0B8D9AA1DD5998E00ECD74F /* extension */,
+				F0B8D9B11DD5998E00ECD74F /* httpSever */,
+				F0B8D9B41DD5998E00ECD74F /* pchAndHead */,
+				F0B8D9B81DD5998E00ECD74F /* third */,
+			);
+			path = commont;
+			sourceTree = "<group>";
+		};
+		F0B8D9A21DD5998E00ECD74F /* baseController */ = {
+			isa = PBXGroup;
+			children = (
+				F0B8D9A31DD5998E00ECD74F /* WNNavigationController.h */,
+				F0B8D9A41DD5998E00ECD74F /* WNNavigationController.m */,
+				F0B8D9A51DD5998E00ECD74F /* WNTabbarController.h */,
+				F0B8D9A61DD5998E00ECD74F /* WNTabbarController.m */,
+			);
+			path = baseController;
+			sourceTree = "<group>";
+		};
+		F0B8D9A71DD5998E00ECD74F /* databaseManger */ = {
+			isa = PBXGroup;
+			children = (
+				F0B8D9A81DD5998E00ECD74F /* WNDatebaseManager.h */,
+				F0B8D9A91DD5998E00ECD74F /* WNDatebaseManager.m */,
+			);
+			path = databaseManger;
+			sourceTree = "<group>";
+		};
+		F0B8D9AA1DD5998E00ECD74F /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				F0B8D9AB1DD5998E00ECD74F /* button */,
+				F0B8D9AE1DD5998E00ECD74F /* textFiled */,
+			);
+			name = extension;
+			path = extent;
+			sourceTree = "<group>";
+		};
+		F0B8D9AB1DD5998E00ECD74F /* button */ = {
+			isa = PBXGroup;
+			children = (
+				F0B8D9AC1DD5998E00ECD74F /* WN_Style1_Button.h */,
+				F0B8D9AD1DD5998E00ECD74F /* WN_Style1_Button.m */,
+			);
+			path = button;
+			sourceTree = "<group>";
+		};
+		F0B8D9AE1DD5998E00ECD74F /* textFiled */ = {
+			isa = PBXGroup;
+			children = (
+				F0B8D9AF1DD5998E00ECD74F /* WN_Style1_TextField.h */,
+				F0B8D9B01DD5998E00ECD74F /* WN_Style1_TextField.m */,
+			);
+			path = textFiled;
+			sourceTree = "<group>";
+		};
+		F0B8D9B11DD5998E00ECD74F /* httpSever */ = {
+			isa = PBXGroup;
+			children = (
+				F0B8D9B21DD5998E00ECD74F /* WNHttpServer.h */,
+				F0B8D9B31DD5998E00ECD74F /* WNHttpServer.m */,
+			);
+			path = httpSever;
+			sourceTree = "<group>";
+		};
+		F0B8D9B41DD5998E00ECD74F /* pchAndHead */ = {
+			isa = PBXGroup;
+			children = (
+				F0B8D9B51DD5998E00ECD74F /* PrefixHeader.pch */,
+				F0B8D9B61DD5998E00ECD74F /* WNServer.h */,
+				F0B8D9B71DD5998E00ECD74F /* WNSizeHeader.h */,
+				F0B8D9DD1DD59F6800ECD74F /* WNGlobConstant.h */,
+				F0B8D9DE1DD59F6800ECD74F /* WNGlobConstant.m */,
+			);
+			path = pchAndHead;
+			sourceTree = "<group>";
+		};
+		F0B8D9B81DD5998E00ECD74F /* third */ = {
+			isa = PBXGroup;
+			children = (
+				F0B8D9B91DD5998E00ECD74F /* AsyncSocket.h */,
+				F0B8D9BA1DD5998E00ECD74F /* AsyncSocket.m */,
+				F0B8D9BB1DD5998E00ECD74F /* AsyncUdpSocket.h */,
+				F0B8D9BC1DD5998E00ECD74F /* AsyncUdpSocket.m */,
+			);
+			path = third;
+			sourceTree = "<group>";
+		};
+		F0B8D9C71DD59DBD00ECD74F /* other */ = {
+			isa = PBXGroup;
+			children = (
+				F0B8D9D41DD59E4C00ECD74F /* resource */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		F0B8D9D41DD59E4C00ECD74F /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				F0B8D9D51DD59E4C00ECD74F /* 123.lrc */,
+				F0B8D9D61DD59E4C00ECD74F /* 123.mp3 */,
+				F0B8D9D71DD59E4C00ECD74F /* index.html */,
+				F0B8D9D81DD59E4C00ECD74F /* test.mp4 */,
+			);
+			path = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -541,7 +606,7 @@
 				TargetAttributes = {
 					F0259CC91DCD645D00D5600C = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 2LLR85JHQ3;
+						DevelopmentTeam = W6ZN6C89QW;
 						ProvisioningStyle = Automatic;
 					};
 					F0259CE21DCD645D00D5600C = {
@@ -581,12 +646,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9C16E2A1DD1B48300A5244A /* index.html in Resources */,
+				F0B8D9D91DD59E4C00ECD74F /* 123.lrc in Resources */,
+				F0B8D9D11DD59E0E00ECD74F /* Info.plist in Resources */,
 				F0259CDD1DCD645D00D5600C /* LaunchScreen.storyboard in Resources */,
-				C9C16E2C1DD1BAFB00A5244A /* 123.lrc in Resources */,
+				F0B8D9DC1DD59E4C00ECD74F /* test.mp4 in Resources */,
+				F0B8D9DB1DD59E4C00ECD74F /* index.html in Resources */,
 				F0259CDA1DCD645D00D5600C /* Assets.xcassets in Resources */,
-				F0259CD81DCD645D00D5600C /* Main.storyboard in Resources */,
-				C9C16E141DD19F6D00A5244A /* 123.mp3 in Resources */,
+				F0B8D9DA1DD59E4C00ECD74F /* 123.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -611,27 +677,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0259D151DCD6D8600D5600C /* WN_Style1_Button.m in Sources */,
-				C9C16E251DD1A5A200A5244A /* WNNovelListViewController.m in Sources */,
-				C9C16DFB1DD1676A00A5244A /* WNStartUploadViewController.m in Sources */,
-				F0B02FBA1DCD7EB80065F055 /* WNLoginViewController.m in Sources */,
-				F0259D1E1DCD6EB900D5600C /* WNLoginView.m in Sources */,
-				C9C16E0C1DD1867E00A5244A /* WNDatebaseManager.m in Sources */,
-				C96D3DD51DD067B100AA7FDA /* AsyncUdpSocket.m in Sources */,
-				F0259D0D1DCD6A4500D5600C /* WNUploadViewController.m in Sources */,
-				F0259CD21DCD645D00D5600C /* WNAppDelegate.m in Sources */,
-				F0259D041DCD659600D5600C /* WNInfoViewController.m in Sources */,
-				F0259CCF1DCD645D00D5600C /* main.m in Sources */,
-				C96D3DD41DD067B100AA7FDA /* AsyncSocket.m in Sources */,
-				C9C16E091DD1830C00A5244A /* WNSongListViewController.m in Sources */,
-				C9C16E221DD1A49800A5244A /* WNNovelViewController.m in Sources */,
-				C9C16E2F1DD1BBA800A5244A /* WNLrcParser.m in Sources */,
-				C9C16E281DD1A7FA00A5244A /* WNMovieListViewController.m in Sources */,
-				F0259D181DCD6DB700D5600C /* WN_Style1_TextField.m in Sources */,
-				F0259D111DCD6A7C00D5600C /* WNMyResourceViewController.m in Sources */,
-				C9C16E1B1DD1A44800A5244A /* WNMovieViewController.m in Sources */,
-				C96D3DCF1DD049EE00AA7FDA /* WNHttpServer.m in Sources */,
-				C9C16E121DD1991100A5244A /* WNSongPlayerViewController.m in Sources */,
+				F0B8D9941DD5998400ECD74F /* WNInfoViewController.m in Sources */,
+				F0B8D9A01DD5998400ECD74F /* WNUploadViewController.m in Sources */,
+				F0B8D9C21DD5998E00ECD74F /* WNHttpServer.m in Sources */,
+				F0B8D9971DD5998400ECD74F /* WNLoginView.m in Sources */,
+				F0B8D9951DD5998400ECD74F /* WNMyResourceViewController.m in Sources */,
+				F0B8D99F1DD5998400ECD74F /* WNStartUploadViewController.m in Sources */,
+				F0B8D9C41DD5998E00ECD74F /* AsyncUdpSocket.m in Sources */,
+				F0B8D9981DD5998400ECD74F /* WNMovieListViewController.m in Sources */,
+				F0B8D9C31DD5998E00ECD74F /* AsyncSocket.m in Sources */,
+				F0B8D9BE1DD5998E00ECD74F /* WNTabbarController.m in Sources */,
+				F0B8D9D31DD59E2500ECD74F /* main.m in Sources */,
+				F0B8D9961DD5998400ECD74F /* WNLoginViewController.m in Sources */,
+				F0B8D99E1DD5998400ECD74F /* WNLrcParser.m in Sources */,
+				F0B8D99B1DD5998400ECD74F /* WNNovelViewController.m in Sources */,
+				F0B8D9DF1DD59F6800ECD74F /* WNGlobConstant.m in Sources */,
+				F0B8D99D1DD5998400ECD74F /* WNSongPlayerViewController.m in Sources */,
+				F0B8D9C01DD5998E00ECD74F /* WN_Style1_Button.m in Sources */,
+				F0B8D9991DD5998400ECD74F /* WNMovieViewController.m in Sources */,
+				F0B8D9C11DD5998E00ECD74F /* WN_Style1_TextField.m in Sources */,
+				F0B8D9BF1DD5998E00ECD74F /* WNDatebaseManager.m in Sources */,
+				F0B8D9BD1DD5998E00ECD74F /* WNNavigationController.m in Sources */,
+				F0B8D99A1DD5998400ECD74F /* WNNovelListViewController.m in Sources */,
+				F0B8D99C1DD5998400ECD74F /* WNSongListViewController.m in Sources */,
+				F0B8D95D1DD598EE00ECD74F /* WNAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -667,14 +736,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F0259CD61DCD645D00D5600C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F0259CD71DCD645D00D5600C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F0259CDB1DCD645D00D5600C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -778,9 +839,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2LLR85JHQ3;
+				DEVELOPMENT_TEAM = W6ZN6C89QW;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/WNTools/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WNTools/commont/pchAndHead/PrefixHeader.pch";
 				INFOPLIST_FILE = WNTools/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Angel.-arc-mvvm.WNTools";
@@ -792,9 +853,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2LLR85JHQ3;
+				DEVELOPMENT_TEAM = W6ZN6C89QW;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/WNTools/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WNTools/commont/pchAndHead/PrefixHeader.pch";
 				INFOPLIST_FILE = WNTools/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Angel.-arc-mvvm.WNTools";
